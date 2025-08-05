@@ -1,4 +1,5 @@
 # This module contains functions to process student data.
+from lib.student_data import students
 
 def format_student_data(student):
     """
@@ -12,9 +13,8 @@ def format_student_data(student):
     pass
 
 def display_students(student_list):
-    """
-    Display all students in a formatted way.
-    Loop through the student_list and print each student using format_student_data().
-    """
-    # TODO: Implement this function
-    pass
+    print("\nStudent Records:")
+    for sid, name, major in student_list:
+        print(f"ID: {sid} | Name: {name} | Major: {major}")
+
+display_students(students)
