@@ -10,3 +10,9 @@ students = [
 ]
 
 # TODO: Add more sample students if necessary
+
+student_dict = {
+    101: {"name": "Alice Johnson", "major": "Computer Science", "courses": {"CS101", "CS102"}},
+    102: {"name": "Bob Smith", "major": "Mathematics", "courses": {"MATH101", "MATH102"}},
+    103: {"name": "Charlie Davis", "major": "Physics", "courses": {"PHYS101", "PHYS102"}},
+}
